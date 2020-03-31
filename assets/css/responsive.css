@@ -1,0 +1,303 @@
+/** Media Queries **/
+@media screen and (max-width: 1400px) {
+.slider-content h1  {
+	font-size: 40px;
+}
+}
+/* Tablets Landscape */
+@media (min-width: 992px) and (max-width: 1024px) {
+blockquote {
+	font-size: 16px;
+}
+.item-image {
+	height: auto;
+}
+.project-info h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+}
+
+/* Tablets Portrait */
+@media (min-width: 768px) and (max-width: 991px) {
+blockquote {
+	font-size: 16px;
+}
+.item-image {
+	height: auto;
+}
+.project-info h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.year {
+    width: 100%;
+}
+.skills ul li {
+	width: 33.333%;
+	margin:5px 0px;
+}
+.item-content p {
+	font-size: 16px;
+}
+.footer_info > div:nth-child(1) {
+    width: 20%;
+}
+.footer_info > div:nth-child(2), .footer_info > div:nth-child(3) {
+    width: 40%;
+}
+.mail, .phone {
+    padding-left: 18px;
+}
+.blog_comments ul li .com_text {
+	width: 74%;
+}
+}
+
+/* Medium Mobiles size */
+@media screen and (max-width: 767px) {
+blockquote {
+	font-size: 16px;
+}
+.title {
+	line-height: normal;
+}
+.main_header h1 {
+	margin-left: 0 !important;
+}
+.main_header .menu a {
+	right: 0;
+}
+.main_text h1 {
+	font-size: 3em;
+}
+.main_text h2 {
+	font-size: 1.5em;
+	margin-bottom: 15px;
+}
+.main_text p {
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+.slider-content h1 {
+	font-size: 30px;
+}
+.slider-content h3 {
+    font-size: 22px;
+}
+.about_info {
+    margin: 60px 0px 0px;
+    padding-left: 0;
+}
+.about_img {
+	width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.education {
+    width: 100%;
+}
+.education .caption{
+	width: 100%;
+}
+.exp {
+	width: 100%;
+	float: none;
+	margin: 60px 0px 0px;
+}
+.skills ul li {
+	width: 33.333%;
+	margin:5px 0px;
+}
+.skills ul li .name h4 {
+	font-size: 20px;
+}
+.service_section, .works_section, .blog_section, .contact_section {
+	padding: 0px 15px;
+}
+.service_item {
+	width: 100%;
+	border: 0 !important;
+}
+.works_list > div {
+	width: 100%;
+	margin: 10px 0px;
+}
+.item-image {
+	height: auto;
+}
+.item-content hr {
+	display: none;
+}
+.item-content p {
+	margin: 10px 0px 0px 0px;
+	font-size: 14px;
+}
+.project_text {
+	padding: 0px 15px;
+}
+.post_content {
+	padding: 1em;
+}
+.contact_info {
+	justify-content:center;
+}
+.contact_info > div {
+	width: 100%;
+}
+.contact_info > div.mail {
+	margin: 30px 0px;
+}
+.address, .mail {
+	border: 0;
+}
+.mail, .phone {
+	padding: 0;
+}
+.contact_form input[type="text"] {
+	width: 100%;
+}
+.footer_info > div {
+	width: 100%;
+	text-align: center;
+}
+.foo_logo {
+	display: none;
+}
+.social ul {
+	margin: 0 auto 10px auto;
+	display: table;
+	width: auto;
+}
+.copyright {
+	text-align: left;
+}
+.contact_form {
+	width: 100%;
+	padding: 0px;
+}
+.go-top {
+	display: none;
+}
+.overlay nav {
+	height: auto;
+}
+.overlay ul li a {
+	font-size: 18px;
+}
+.title_bg hr {
+	display: none;
+}
+.project-info {
+	text-align: center;
+	width: auto;
+	padding: 0px 15px;
+	width: 100%;
+}
+.project-info h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.project_gallery {
+	padding: 0px 15px;
+}
+.project_gallery div {
+	margin: 5px 0px;
+	width: 100% !important;
+}
+.filter_menu ul li {
+	margin: 0px 5px 0px 0px;
+	float: none;
+	display: inline-block;
+	font-size: 14px;
+}
+.filter_menu ul li a {
+	padding: 5px 20px 5px 0px;
+}
+.post_info ul li {
+	width: 32%;
+	font-size: 12px;
+}
+.search .input-group {
+	width: 100%;
+}
+.widget.search {
+	margin: 30px 0px 0px;
+}
+.blog_comments ul li .com_text {
+	width: 64%;
+	margin-left: 15px;
+}
+.form_style input[type="text"] {
+	width: 100%;
+}
+}
+
+
+/* Small Mobiles size */
+@media screen and (max-width: 360px) {
+.title {
+	font-size: 1.5em;
+}
+.logo h1 {
+	font-size: 26px;
+}
+.year {
+    width: 100%;
+}
+.skills ul li .name h4 {
+	font-size: 16px;
+}
+.service_item {
+	width: 100%;
+	border: 0 !important;
+}
+.works_list > div {
+	width: 100%;
+}
+.filter_menu ul li {
+    margin: 0px 3px 0px 0px;
+}
+.mail, .phone {
+    padding-left: 0px;
+}
+.contact_info > div {
+    width: 100%;
+    text-align: left;
+    margin: 0px 0px 15px 0px;
+}
+.contact_info > div:last-child {
+	margin-top: 0;
+}
+.contact_form input[type="text"] {
+	width: 100%;
+}
+.footer_info > div {
+	width: 100%;
+	text-align: center;
+}
+.social ul {
+	margin: 0 auto 10px auto;
+	display: table;
+	width: auto;
+}
+.title_bg hr {
+	display: none;
+}
+.project-info h5 {
+	font-size: 14px;
+}
+.project_gallery div {
+	width: 100% !important;
+}
+.widget.search {
+	margin: 30px 0px 0px;
+}
+}
+
+/* Extra Small Mobiles size */
+@media screen and (max-width: 319px) {
+.main_header.inner.fixed h1, .inner .logo h1 {
+	font-size: 21px;
+}
+}
